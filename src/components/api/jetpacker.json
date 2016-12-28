@@ -1,0 +1,451 @@
+{
+  "ubuntu" : {
+    "name" : "ubuntu",
+    "label" : "Ubuntu",
+    "description" : "Ubuntu is an open source software platform that runs from the cloud, to the smartphone, to all your things.",
+    "version" : {
+      "name" : "box",
+      "label" : "Box",
+      "releases" : [ "ubuntu/trusty64", "ubuntu/trusty32" ]
+    },
+    "parameters" : [ {
+      "name" : "application",
+      "label" : "Application Name",
+      "value" : "my_application"
+    }, {
+      "name" : "memory",
+      "label" : "Memory",
+      "value" : "4096"
+    } ],
+    "timezone" : {
+      "name" : "timezone",
+      "label" : "Timezone",
+      "availableIds" : [ "Africa/Abidjan", "Africa/Accra", "Africa/Addis_Ababa", "Africa/Algiers", "Africa/Asmara", "Africa/Asmera", "Africa/Bamako", "Africa/Bangui", "Africa/Banjul", "Africa/Bissau", "Africa/Blantyre", "Africa/Brazzaville", "Africa/Bujumbura", "Africa/Cairo", "Africa/Casablanca", "Africa/Ceuta", "Africa/Conakry", "Africa/Dakar", "Africa/Dar_es_Salaam", "Africa/Djibouti", "Africa/Douala", "Africa/El_Aaiun", "Africa/Freetown", "Africa/Gaborone", "Africa/Harare", "Africa/Johannesburg", "Africa/Juba", "Africa/Kampala", "Africa/Khartoum", "Africa/Kigali", "Africa/Kinshasa", "Africa/Lagos", "Africa/Libreville", "Africa/Lome", "Africa/Luanda", "Africa/Lubumbashi", "Africa/Lusaka", "Africa/Malabo", "Africa/Maputo", "Africa/Maseru", "Africa/Mbabane", "Africa/Mogadishu", "Africa/Monrovia", "Africa/Nairobi", "Africa/Ndjamena", "Africa/Niamey", "Africa/Nouakchott", "Africa/Ouagadougou", "Africa/Porto-Novo", "Africa/Sao_Tome", "Africa/Timbuktu", "Africa/Tripoli", "Africa/Tunis", "Africa/Windhoek", "America/Adak", "America/Anchorage", "America/Anguilla", "America/Antigua", "America/Araguaina", "America/Argentina/Buenos_Aires", "America/Argentina/Catamarca", "America/Argentina/ComodRivadavia", "America/Argentina/Cordoba", "America/Argentina/Jujuy", "America/Argentina/La_Rioja", "America/Argentina/Mendoza", "America/Argentina/Rio_Gallegos", "America/Argentina/Salta", "America/Argentina/San_Juan", "America/Argentina/San_Luis", "America/Argentina/Tucuman", "America/Argentina/Ushuaia", "America/Aruba", "America/Asuncion", "America/Atikokan", "America/Atka", "America/Bahia", "America/Bahia_Banderas", "America/Barbados", "America/Belem", "America/Belize", "America/Blanc-Sablon", "America/Boa_Vista", "America/Bogota", "America/Boise", "America/Buenos_Aires", "America/Cambridge_Bay", "America/Campo_Grande", "America/Cancun", "America/Caracas", "America/Catamarca", "America/Cayenne", "America/Cayman", "America/Chicago", "America/Chihuahua", "America/Coral_Harbour", "America/Cordoba", "America/Costa_Rica", "America/Creston", "America/Cuiaba", "America/Curacao", "America/Danmarkshavn", "America/Dawson", "America/Dawson_Creek", "America/Denver", "America/Detroit", "America/Dominica", "America/Edmonton", "America/Eirunepe", "America/El_Salvador", "America/Ensenada", "America/Fort_Nelson", "America/Fort_Wayne", "America/Fortaleza", "America/Glace_Bay", "America/Godthab", "America/Goose_Bay", "America/Grand_Turk", "America/Grenada", "America/Guadeloupe", "America/Guatemala", "America/Guayaquil", "America/Guyana", "America/Halifax", "America/Havana", "America/Hermosillo", "America/Indiana/Indianapolis", "America/Indiana/Knox", "America/Indiana/Marengo", "America/Indiana/Petersburg", "America/Indiana/Tell_City", "America/Indiana/Vevay", "America/Indiana/Vincennes", "America/Indiana/Winamac", "America/Indianapolis", "America/Inuvik", "America/Iqaluit", "America/Jamaica", "America/Jujuy", "America/Juneau", "America/Kentucky/Louisville", "America/Kentucky/Monticello", "America/Knox_IN", "America/Kralendijk", "America/La_Paz", "America/Lima", "America/Los_Angeles", "America/Louisville", "America/Lower_Princes", "America/Maceio", "America/Managua", "America/Manaus", "America/Marigot", "America/Martinique", "America/Matamoros", "America/Mazatlan", "America/Mendoza", "America/Menominee", "America/Merida", "America/Metlakatla", "America/Mexico_City", "America/Miquelon", "America/Moncton", "America/Monterrey", "America/Montevideo", "America/Montreal", "America/Montserrat", "America/Nassau", "America/New_York", "America/Nipigon", "America/Nome", "America/Noronha", "America/North_Dakota/Beulah", "America/North_Dakota/Center", "America/North_Dakota/New_Salem", "America/Ojinaga", "America/Panama", "America/Pangnirtung", "America/Paramaribo", "America/Phoenix", "America/Port-au-Prince", "America/Port_of_Spain", "America/Porto_Acre", "America/Porto_Velho", "America/Puerto_Rico", "America/Rainy_River", "America/Rankin_Inlet", "America/Recife", "America/Regina", "America/Resolute", "America/Rio_Branco", "America/Rosario", "America/Santa_Isabel", "America/Santarem", "America/Santiago", "America/Santo_Domingo", "America/Sao_Paulo", "America/Scoresbysund", "America/Shiprock", "America/Sitka", "America/St_Barthelemy", "America/St_Johns", "America/St_Kitts", "America/St_Lucia", "America/St_Thomas", "America/St_Vincent", "America/Swift_Current", "America/Tegucigalpa", "America/Thule", "America/Thunder_Bay", "America/Tijuana", "America/Toronto", "America/Tortola", "America/Vancouver", "America/Virgin", "America/Whitehorse", "America/Winnipeg", "America/Yakutat", "America/Yellowknife", "Antarctica/Casey", "Antarctica/Davis", "Antarctica/DumontDUrville", "Antarctica/Macquarie", "Antarctica/Mawson", "Antarctica/McMurdo", "Antarctica/Palmer", "Antarctica/Rothera", "Antarctica/South_Pole", "Antarctica/Syowa", "Antarctica/Troll", "Antarctica/Vostok", "Arctic/Longyearbyen", "Asia/Aden", "Asia/Almaty", "Asia/Amman", "Asia/Anadyr", "Asia/Aqtau", "Asia/Aqtobe", "Asia/Ashgabat", "Asia/Ashkhabad", "Asia/Baghdad", "Asia/Bahrain", "Asia/Baku", "Asia/Bangkok", "Asia/Beirut", "Asia/Bishkek", "Asia/Brunei", "Asia/Calcutta", "Asia/Chita", "Asia/Choibalsan", "Asia/Chongqing", "Asia/Chungking", "Asia/Colombo", "Asia/Dacca", "Asia/Damascus", "Asia/Dhaka", "Asia/Dili", "Asia/Dubai", "Asia/Dushanbe", "Asia/Gaza", "Asia/Harbin", "Asia/Hebron", "Asia/Ho_Chi_Minh", "Asia/Hong_Kong", "Asia/Hovd", "Asia/Irkutsk", "Asia/Istanbul", "Asia/Jakarta", "Asia/Jayapura", "Asia/Jerusalem", "Asia/Kabul", "Asia/Kamchatka", "Asia/Karachi", "Asia/Kashgar", "Asia/Kathmandu", "Asia/Katmandu", "Asia/Khandyga", "Asia/Kolkata", "Asia/Krasnoyarsk", "Asia/Kuala_Lumpur", "Asia/Kuching", "Asia/Kuwait", "Asia/Macao", "Asia/Macau", "Asia/Magadan", "Asia/Makassar", "Asia/Manila", "Asia/Muscat", "Asia/Nicosia", "Asia/Novokuznetsk", "Asia/Novosibirsk", "Asia/Omsk", "Asia/Oral", "Asia/Phnom_Penh", "Asia/Pontianak", "Asia/Pyongyang", "Asia/Qatar", "Asia/Qyzylorda", "Asia/Rangoon", "Asia/Riyadh", "Asia/Saigon", "Asia/Sakhalin", "Asia/Samarkand", "Asia/Seoul", "Asia/Shanghai", "Asia/Singapore", "Asia/Srednekolymsk", "Asia/Taipei", "Asia/Tashkent", "Asia/Tbilisi", "Asia/Tehran", "Asia/Tel_Aviv", "Asia/Thimbu", "Asia/Thimphu", "Asia/Tokyo", "Asia/Ujung_Pandang", "Asia/Ulaanbaatar", "Asia/Ulan_Bator", "Asia/Urumqi", "Asia/Ust-Nera", "Asia/Vientiane", "Asia/Vladivostok", "Asia/Yakutsk", "Asia/Yekaterinburg", "Asia/Yerevan", "Atlantic/Azores", "Atlantic/Bermuda", "Atlantic/Canary", "Atlantic/Cape_Verde", "Atlantic/Faeroe", "Atlantic/Faroe", "Atlantic/Jan_Mayen", "Atlantic/Madeira", "Atlantic/Reykjavik", "Atlantic/South_Georgia", "Atlantic/St_Helena", "Atlantic/Stanley", "Australia/ACT", "Australia/Adelaide", "Australia/Brisbane", "Australia/Broken_Hill", "Australia/Canberra", "Australia/Currie", "Australia/Darwin", "Australia/Eucla", "Australia/Hobart", "Australia/LHI", "Australia/Lindeman", "Australia/Lord_Howe", "Australia/Melbourne", "Australia/NSW", "Australia/North", "Australia/Perth", "Australia/Queensland", "Australia/South", "Australia/Sydney", "Australia/Tasmania", "Australia/Victoria", "Australia/West", "Australia/Yancowinna", "Brazil/Acre", "Brazil/DeNoronha", "Brazil/East", "Brazil/West", "CET", "CST6CDT", "Canada/Atlantic", "Canada/Central", "Canada/East-Saskatchewan", "Canada/Eastern", "Canada/Mountain", "Canada/Newfoundland", "Canada/Pacific", "Canada/Saskatchewan", "Canada/Yukon", "Chile/Continental", "Chile/EasterIsland", "Cuba", "EET", "EST5EDT", "Egypt", "Eire", "Etc/GMT", "Etc/GMT+0", "Etc/GMT+1", "Etc/GMT+10", "Etc/GMT+11", "Etc/GMT+12", "Etc/GMT+2", "Etc/GMT+3", "Etc/GMT+4", "Etc/GMT+5", "Etc/GMT+6", "Etc/GMT+7", "Etc/GMT+8", "Etc/GMT+9", "Etc/GMT-0", "Etc/GMT-1", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-12", "Etc/GMT-13", "Etc/GMT-14", "Etc/GMT-2", "Etc/GMT-3", "Etc/GMT-4", "Etc/GMT-5", "Etc/GMT-6", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-9", "Etc/GMT0", "Etc/Greenwich", "Etc/UCT", "Etc/UTC", "Etc/Universal", "Etc/Zulu", "Europe/Amsterdam", "Europe/Andorra", "Europe/Athens", "Europe/Belfast", "Europe/Belgrade", "Europe/Berlin", "Europe/Bratislava", "Europe/Brussels", "Europe/Bucharest", "Europe/Budapest", "Europe/Busingen", "Europe/Chisinau", "Europe/Copenhagen", "Europe/Dublin", "Europe/Gibraltar", "Europe/Guernsey", "Europe/Helsinki", "Europe/Isle_of_Man", "Europe/Istanbul", "Europe/Jersey", "Europe/Kaliningrad", "Europe/Kiev", "Europe/Lisbon", "Europe/Ljubljana", "Europe/London", "Europe/Luxembourg", "Europe/Madrid", "Europe/Malta", "Europe/Mariehamn", "Europe/Minsk", "Europe/Monaco", "Europe/Moscow", "Europe/Nicosia", "Europe/Oslo", "Europe/Paris", "Europe/Podgorica", "Europe/Prague", "Europe/Riga", "Europe/Rome", "Europe/Samara", "Europe/San_Marino", "Europe/Sarajevo", "Europe/Simferopol", "Europe/Skopje", "Europe/Sofia", "Europe/Stockholm", "Europe/Tallinn", "Europe/Tirane", "Europe/Tiraspol", "Europe/Uzhgorod", "Europe/Vaduz", "Europe/Vatican", "Europe/Vienna", "Europe/Vilnius", "Europe/Volgograd", "Europe/Warsaw", "Europe/Zagreb", "Europe/Zaporozhye", "Europe/Zurich", "GB", "GB-Eire", "GMT", "GMT0", "Greenwich", "Hongkong", "Iceland", "Indian/Antananarivo", "Indian/Chagos", "Indian/Christmas", "Indian/Cocos", "Indian/Comoro", "Indian/Kerguelen", "Indian/Mahe", "Indian/Maldives", "Indian/Mauritius", "Indian/Mayotte", "Indian/Reunion", "Iran", "Israel", "Jamaica", "Japan", "Kwajalein", "Libya", "MET", "MST7MDT", "Mexico/BajaNorte", "Mexico/BajaSur", "Mexico/General", "NZ", "NZ-CHAT", "Navajo", "PRC", "PST8PDT", "Pacific/Apia", "Pacific/Auckland", "Pacific/Bougainville", "Pacific/Chatham", "Pacific/Chuuk", "Pacific/Easter", "Pacific/Efate", "Pacific/Enderbury", "Pacific/Fakaofo", "Pacific/Fiji", "Pacific/Funafuti", "Pacific/Galapagos", "Pacific/Gambier", "Pacific/Guadalcanal", "Pacific/Guam", "Pacific/Honolulu", "Pacific/Johnston", "Pacific/Kiritimati", "Pacific/Kosrae", "Pacific/Kwajalein", "Pacific/Majuro", "Pacific/Marquesas", "Pacific/Midway", "Pacific/Nauru", "Pacific/Niue", "Pacific/Norfolk", "Pacific/Noumea", "Pacific/Pago_Pago", "Pacific/Palau", "Pacific/Pitcairn", "Pacific/Pohnpei", "Pacific/Ponape", "Pacific/Port_Moresby", "Pacific/Rarotonga", "Pacific/Saipan", "Pacific/Samoa", "Pacific/Tahiti", "Pacific/Tarawa", "Pacific/Tongatapu", "Pacific/Truk", "Pacific/Wake", "Pacific/Wallis", "Pacific/Yap", "Poland", "Portugal", "ROK", "Singapore", "Turkey", "UCT", "US/Alaska", "US/Aleutian", "US/Arizona", "US/Central", "US/East-Indiana", "US/Eastern", "US/Hawaii", "US/Indiana-Starke", "US/Michigan", "US/Mountain", "US/Pacific", "US/Pacific-New", "US/Samoa", "UTC", "Universal", "W-SU", "WET", "Zulu", "EST", "HST", "MST", "ACT", "AET", "AGT", "ART", "AST", "BET", "BST", "CAT", "CNT", "CST", "CTT", "EAT", "ECT", "IET", "IST", "JST", "MIT", "NET", "NST", "PLT", "PNT", "PRT", "PST", "SST", "VST" ]
+    }
+  },
+  "openjdk" : {
+    "name" : "openjdk",
+    "label" : "OpenJDK",
+    "description" : "OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "8", "7" ]
+    },
+    "install" : {
+      "name" : "install",
+      "label" : "Install OpenJDK",
+      "value" : "true"
+    },
+    "extensions" : [ {
+      "name" : "activator",
+      "label" : "activator",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.3.10", "1.3.9" ]
+      }
+    }, {
+      "name" : "ant",
+      "label" : "ant",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.9.7" ]
+      }
+    }, {
+      "name" : "asciidoctorj",
+      "label" : "asciidoctorj",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.5.4.1", "1.5.2" ]
+      }
+    }, {
+      "name" : "ceylon",
+      "label" : "ceylon",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.3.1", "1.3.0", "1.2.2", "1.2.1", "1.2.0", "1.1.0" ]
+      }
+    }, {
+      "name" : "crash",
+      "label" : "crash",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.3.0", "1.2.11" ]
+      }
+    }, {
+      "name" : "gaiden",
+      "label" : "gaiden",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.1", "1.0", "0.3" ]
+      }
+    }, {
+      "name" : "glide",
+      "label" : "glide",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "0.9.2", "0.3.3", "0.3.2", "0.3.1", "0.3" ]
+      }
+    }, {
+      "name" : "gradle",
+      "label" : "gradle",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "3.2.1", "3.2", "3.1", "3.0", "2.14.1", "2.14", "2.13", "2.12", "2.11", "2.10", "2.9", "2.8", "2.7", "2.6", "2.5", "2.4", "2.3", "2.2.1", "2.2", "2.1", "2.0", "1.12", "1.11", "1.10", "1.9", "1.8", "1.7", "1.6", "1.5", "1.4", "1.3", "1.2", "1.1", "1.0", "0.9.2", "0.9.1", "0.9", "0.8", "0.7" ]
+      }
+    }, {
+      "name" : "grails",
+      "label" : "grails",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "3.2.3", "3.2.2", "3.2.1", "3.2.0", "3.1.14", "3.1.13", "3.1.12", "3.1.11", "3.1.10", "3.1.9", "3.1.8", "3.1.7", "3.1.6", "3.1.5", "3.1.4", "3.1.3", "3.1.2", "3.1.1", "3.1.0", "3.0.17", "3.0.16", "3.0.15", "3.0.14", "3.0.13", "3.0.12", "3.0.11", "3.0.10", "3.0.9", "3.0.8", "3.0.7", "3.0.6", "3.0.5", "3.0.4", "3.0.3", "3.0.2", "3.0.1", "3.0.0", "2.5.5", "2.5.4", "2.5.3", "2.5.2", "2.5.1", "2.5.0", "2.4.5", "2.4.4", "2.4.3", "2.4.2", "2.4.1", "2.4.0", "2.3.11", "2.3.10", "2.3.9", "2.3.8", "2.3.7", "2.3.6", "2.3.5", "2.3.4", "2.3.3", "2.3.2", "2.3.1", "2.3.0", "2.2.5", "2.2.4", "2.2.3", "2.2.2", "2.2.1", "2.2.0", "2.1.5", "2.1.4", "2.1.3", "2.1.2", "2.1.1", "2.1.0", "2.0.4", "2.0.3", "2.0.2", "2.0.1", "2.0.0", "1.3.9", "1.3.8", "1.3.7", "1.3.6", "1.3.5", "1.3.4", "1.3.3", "1.3.2", "1.3.1", "1.3.0", "1.2.5", "1.2.4", "1.2.3", "1.2.2", "1.2.1", "1.2.0" ]
+      }
+    }, {
+      "name" : "griffon",
+      "label" : "griffon",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.5.0", "1.4.0", "1.3.0", "1.2.0", "1.1.0", "1.0.2", "1.0.1", "1.0.0", "0.9.5", "0.9.4", "0.9.3", "0.9.2", "0.9.1a", "0.9.1", "0.9", "0.3.1", "0.3", "0.2.1", "0.2", "0.1.2", "0.1.1", "0.1", "0.0.1", "0.0" ]
+      }
+    }, {
+      "name" : "groovy",
+      "label" : "groovy",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "2.4.7", "2.4.6", "2.4.5", "2.4.4", "2.4.3", "2.4.2", "2.4.1", "2.4.0", "2.3.11", "2.3.10", "2.3.9", "2.3.8", "2.3.7", "2.3.6", "2.3.5", "2.3.4", "2.3.3", "2.3.2", "2.3.1", "2.3.0", "2.2.2", "2.2.1", "2.2.0", "2.1.9", "2.1.8", "2.1.7", "2.1.6", "2.1.5", "2.1.4", "2.1.3", "2.1.2", "2.1.1", "2.1.0", "2.0.8", "2.0.7", "2.0.6", "2.0.5", "2.0.4", "2.0.3", "2.0.2", "2.0.1", "2.0.0", "1.8.9", "1.8.8", "1.8.7", "1.8.6", "1.8.5", "1.8.4", "1.8.3", "1.8.2", "1.8.1", "1.8.0", "1.7.11", "1.7.10", "1.7.9", "1.7.8", "1.7.7", "1.7.6", "1.7.5", "1.7.4", "1.7.3", "1.7.2", "1.7.1", "1.7.0", "1.6.9", "1.6.8", "1.6.7", "1.6.6", "1.6.5", "1.6.4", "1.6.3", "1.6.2", "1.6.1", "1.6.0", "1.5.8", "1.5.7", "1.5.6", "1.5.5", "1.5.4", "1.5.3", "1.5.2", "1.5.1", "1.5.0" ]
+      }
+    }, {
+      "name" : "groovyserv",
+      "label" : "groovyserv",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.1.0", "1.0.0", "0.13", "0.12" ]
+      }
+    }, {
+      "name" : "jbake",
+      "label" : "jbake",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "2.5.0", "2.4.0", "2.3.2", "2.3.1" ]
+      }
+    }, {
+      "name" : "jbossforge",
+      "label" : "jbossforge",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "2.19.2.Final", "2.19.1.Final", "2.19.0.Final", "2.18.0.Final", "2.17.0.Final" ]
+      }
+    }, {
+      "name" : "kobalt",
+      "label" : "kobalt",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "0.720", "0.719" ]
+      }
+    }, {
+      "name" : "kotlin",
+      "label" : "kotlin",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.1-M02", "1.1-M01", "1.0.5-2", "1.0.5", "1.0.4", "1.0.3", "1.0.2", "1.0.1-2", "1.0.1-1", "1.0.1", "1.0.0" ]
+      }
+    }, {
+      "name" : "lazybones",
+      "label" : "lazybones",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "0.8.3", "0.8.2", "0.8.1", "0.8", "0.7.1", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2.1" ]
+      }
+    }, {
+      "name" : "leiningen",
+      "label" : "leiningen",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "2.7.1" ]
+      }
+    }, {
+      "name" : "maven",
+      "label" : "maven",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "3.3.9", "3.3.3" ]
+      }
+    }, {
+      "name" : "sbt",
+      "label" : "sbt",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "0.13.13", "0.13.12", "0.13.11", "0.13.9" ]
+      }
+    }, {
+      "name" : "scala",
+      "label" : "scala",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "2.12.0", "2.11.8", "2.11.7", "2.11.6", "2.11.5", "2.11.4", "2.11.3", "2.11.2", "2.11.1", "2.11.0" ]
+      }
+    }, {
+      "name" : "springboot",
+      "label" : "springboot",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "1.4.2.RELEASE", "1.4.1.RELEASE", "1.4.0.RELEASE", "1.4.0.RC1", "1.4.0.M3", "1.3.8.RELEASE", "1.3.7.RELEASE", "1.3.6.RELEASE", "1.3.5.RELEASE", "1.3.4.RELEASE", "1.3.3.RELEASE", "1.3.2.RELEASE", "1.3.1.RELEASE", "1.3.0.RELEASE", "1.3.0.RC1", "1.3.0.M5", "1.3.0.M4", "1.3.0.M3", "1.3.0.M2", "1.3.0.M1", "1.2.8.RELEASE", "1.2.7.RELEASE", "1.2.6.RELEASE", "1.2.5.RELEASE", "1.2.4.RELEASE", "1.2.3.RELEASE", "1.2.2.RELEASE", "1.2.1.RELEASE", "1.2.0.RELEASE", "1.1.12.RELEASE", "1.1.11.RELEASE", "1.1.10.RELEASE", "1.1.9.RELEASE", "1.1.8.RELEASE", "1.1.7.RELEASE", "1.1.6.RELEASE", "1.1.5.RELEASE", "1.1.4.RELEASE", "1.1.3.RELEASE", "1.1.2.RELEASE", "1.1.1.RELEASE", "1.1.0.RELEASE", "1.0.2.RELEASE", "1.0.1.RELEASE", "1.0.0.RELEASE" ]
+      }
+    }, {
+      "name" : "sshoogr",
+      "label" : "sshoogr",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "0.9.25", "0.9.23", "0.9.21" ]
+      }
+    }, {
+      "name" : "vertx",
+      "label" : "vertx",
+      "version" : {
+        "name" : "version",
+        "label" : "Version",
+        "releases" : [ "3.3.3", "3.3.2", "3.3.1", "3.3.0", "3.2.1", "3.2.0", "3.1.0", "3.0.0", "2.1.6", "2.1.5", "2.1.4", "2.1.3", "2.1.2", "2.1.1", "2.1", "2.0.2-final", "2.0.1-final", "2.0.0-final", "1.3.1.final", "1.3.0.final", "1.2.2.final", "1.2.1.final", "1.2.0.final", "1.1.0.final" ]
+      }
+    } ]
+  },
+  "node" : {
+    "name" : "node",
+    "namespace" : "nodejs",
+    "label" : "Node.js",
+    "description" : "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "v7.2.0", "v7.1.0", "v7.0.0", "v6.9.1", "v6.9.0", "v6.8.1", "v6.8.0", "v6.7.0", "v6.6.0", "v6.5.0", "v6.4.0", "v6.3.1", "v6.3.0", "v6.2.2", "v6.2.1", "v6.2.0", "v6.1.0", "v6.0.0", "v5.12.0", "v5.11.1", "v5.11.0", "v5.10.1", "v5.10.0", "v5.9.1", "v5.9.0", "v5.8.0", "v5.7.1", "v5.7.0", "v5.6.0" ]
+    },
+    "install" : {
+      "name" : "install",
+      "label" : "Install Node",
+      "value" : "true"
+    }
+  },
+  "guard" : {
+    "name" : "guard",
+    "label" : "Guard",
+    "description" : "Guard is a command line tool to easily handle events on file system modifications.",
+    "install" : {
+      "name" : "install",
+      "label" : "Install Guard",
+      "value" : "true"
+    }
+  },
+  "databaseEngines" : [ {
+    "name" : "mysql",
+    "label" : "MySQL",
+    "description" : "MySQL is the most popular Open Source SQL database management system.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "8", "8.0.0", "8.0", "5.7.16", "5.7.15", "5.7.14", "5.7.13", "5.7.12", "5.7.11", "5.7.10", "5.7.9", "5.7.8", "5.7.7", "5.7.6", "5.7.5", "5.7.4", "5.7", "5.6.34", "5.6.33", "5.6.32", "5.6.31", "5.6.30", "5.6.29", "5.6.28", "5.6.27", "5.6.26", "5.6.25", "5.6.24", "5.6.23", "5.6.22", "5.6.21", "5.6.20", "5.6.17", "5.6", "5.5.53", "5.5.52", "5.5.51", "5.5.50", "5.5.49", "5.5.48", "5.5.47", "5.5.46", "5.5.45", "5.5.44", "5.5.43", "5.5.42", "5.5.41", "5.5.40", "5.5", "5" ]
+    },
+    "parameters" : [ {
+      "name" : "root_password",
+      "label" : "Root Password",
+      "value" : "root"
+    }, {
+      "name" : "database",
+      "label" : "Database"
+    }, {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "3306"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install MySQL",
+      "value" : "true"
+    }
+  }, {
+    "name" : "mariadb",
+    "label" : "MariaDB",
+    "description" : "MariaDB is an enhanced, drop-in replacement for MySQL.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "10.1.19", "10.1.18", "10.1.17", "10.1.16", "10.1.15", "10.1.14", "10.1.13", "10.1.12", "10.1.11", "10.1.10", "10.1.3", "10.1.2", "10.1.1", "10.1", "10.0.28", "10.0.27", "10.0.26", "10.0.25", "10.0.24", "10.0.23", "10.0.22", "10.0.21", "10.0.20", "10.0.19", "10.0.17", "10.0.16", "10.0.15", "10.0", "10", "5.5.53", "5.5.52", "5.5.51", "5.5.50", "5.5.49", "5.5.48", "5.5.47", "5.5.46", "5.5.45", "5.5.44", "5.5.43", "5.5.42", "5.5.41", "5.5.40", "5.5", "5" ]
+    },
+    "parameters" : [ {
+      "name" : "root_password",
+      "label" : "Root Password",
+      "value" : "root"
+    }, {
+      "name" : "database",
+      "label" : "Database"
+    }, {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "3306"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install MariaDB",
+      "value" : "false"
+    }
+  }, {
+    "name" : "postgres",
+    "label" : "PostgreSQL",
+    "description" : "PostgreSQL is a powerful, open source object-relational database system.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "9.6.1", "9.6", "9.6.0", "9.5.5", "9.5.4", "9.5.3", "9.5.2", "9.5.1", "9.5", "9.5.0", "9.4.10", "9.4.9", "9.4.8", "9.4.7", "9.4.6", "9.4.5", "9.4.4", "9.4.3", "9.4.2", "9.4.1", "9.4", "9.4.0", "9.3.15", "9.3.14", "9.3.13", "9.3.12", "9.3.11", "9.3.10", "9.3.9", "9.3.8", "9.3.7", "9.3.6", "9.3.5", "9.3", "9.2.19", "9.2.18", "9.2.17", "9.2.16", "9.2.15", "9.2.14", "9.2.13", "9.2.12", "9.2.11", "9.2.10", "9.2.9", "9.2", "9.1.24", "9.1.23", "9.1.22", "9.1.21", "9.1.20", "9.1.19", "9.1.18", "9.1.17", "9.1.16", "9.1.15", "9.1.14", "9.1", "9.0.22", "9.0.21", "9.0.20", "9.0.19", "9.0.18", "9", "9.0", "8.4.22", "8.4", "8" ]
+    },
+    "parameters" : [ {
+      "name" : "user",
+      "label" : "User",
+      "value" : "root"
+    }, {
+      "name" : "password",
+      "label" : "Password",
+      "value" : "root"
+    }, {
+      "name" : "database",
+      "label" : "Database"
+    }, {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "5432"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install PostgreSQL",
+      "value" : "false"
+    }
+  }, {
+    "name" : "mongo",
+    "label" : "MongoDB",
+    "description" : "MongoDB is an open-source, document database designed for ease of development and scaling.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "3.4.0", "3.4", "3.3.15", "3.3.14", "3.3.12", "3.3.11", "3.3.10", "3.3.9", "3.3.8", "3.3.6", "3.3.5", "3.3", "3.2.11", "3.2.10", "3.2.9", "3.2.8", "3.2.7", "3.2.6", "3.2.5", "3.2.4", "3.2.3", "3.2.1", "3.2", "3.2.0", "3.1.9", "3.1.8", "3.1.7", "3.1.6", "3.1.5", "3.1.4", "3.1", "3.0.14", "3.0.13", "3.0.12", "3.0.11", "3.0.10", "3.0.9", "3.0.8", "3.0.7", "3.0.6", "3.0.5", "3.0.4", "3.0.3", "3.0.2", "3.0.1", "3", "3.0", "3.0.0", "2.8.0", "2.8", "2.7.8", "2.7.7", "2.7.6", "2.7.5", "2.7", "2.6.12", "2.6.11", "2.6.10", "2.6.9", "2.6.8", "2.6.7", "2.6.6", "2.6.5", "2.6.4", "2.6.1", "2.6", "2.4.14", "2.4.13", "2.4.12", "2.4.11", "2.4.10", "2.4", "2.2.7", "2.2", "2" ]
+    },
+    "parameters" : [ {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "27017"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install MongoDB",
+      "value" : "false"
+    }
+  }, {
+    "name" : "redis",
+    "label" : "Redis",
+    "description" : "Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "3.2.5", "3.2.4", "3.2.3", "3.2.2", "3.2.1", "3.2", "3.2.0", "3.0.7", "3.0.6", "3.0.5", "3.0.4", "3.0.3", "3.0.2", "3.0.1", "3.0", "3", "3.0.0", "2.8.23", "2.8.22", "2.8.21", "2.8.20", "2.8.19", "2.8.18", "2.8.17", "2.8.16", "2.8.15", "2.8.14", "2.8.13", "2.8.12", "2.8.11", "2.8.10", "2.8.9", "2.8.8", "2.8.7", "2.8.6", "2.8", "2.6.17", "2.6", "2" ]
+    },
+    "parameters" : [ {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "6379"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install Redis",
+      "value" : "false"
+    }
+  } ],
+  "queueEngines" : [ {
+    "name" : "rabbitmq",
+    "label" : "RabbitMQ",
+    "suffix" : "-management",
+    "description" : "RabbitMQ is a lightweight, reliable, scalable and portable message broker.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "3.6.6-management", "3.6.6", "3.6.5-management", "3.6.5", "3.6.4-management", "3.6.4", "3.6.3-management", "3.6.3", "3.6.2-management", "3.6.2", "3.6.1-management", "3.6.1", "3.6-management", "3.6.0-management", "3.6", "3.6.0", "3.5.7-management", "3.5.7", "3.5.6-management", "3.5.6", "3.5.5-management", "3.5.5", "3.5.4-management", "3.5.4", "3.5.3-management", "3.5.3", "3.5.2-management", "3.5.2", "3.5.1-management", "3.5.1", "3.5-management", "3.5.0-management", "3.5", "3.5.0", "3.4.4-management", "3.4.4", "3.4.3-management", "3.4.3", "3.4.2-management", "3.4.2", "3.4-management", "3.4", "3-management", "3" ]
+    },
+    "parameters" : [ {
+      "name" : "user",
+      "label" : "User",
+      "value" : "rabbitmq"
+    }, {
+      "name" : "password",
+      "label" : "Password",
+      "value" : "rabbitmq"
+    }, {
+      "name" : "node_name",
+      "label" : "Node Name",
+      "value" : "node@rabbitmq"
+    }, {
+      "name" : "erlang_cookie",
+      "label" : "Erlang Cookie",
+      "value" : "rabbitmq_erlang_cookie"
+    }, {
+      "name" : "port",
+      "label" : "Port",
+      "value" : "5672"
+    }, {
+      "name" : "management_port",
+      "label" : "Management Port",
+      "value" : "15672"
+    } ],
+    "install" : {
+      "name" : "install",
+      "label" : "Install RabbitMQ",
+      "value" : "false"
+    }
+  } ],
+  "searchEngines" : [ {
+    "name" : "elasticsearch",
+    "label" : "ElasticSearch",
+    "description" : "Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal scalability, reliability, and easy management.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "5.0.1", "5", "5.0", "5.0.0", "2.4.2", "2.4.1", "2.4", "2.4.0", "2.3.5", "2.3.4", "2.3.3", "2.3.2", "2.3.1", "2.3", "2.3.0", "2.2.2", "2.2.1", "2.2", "2.2.0", "2.1.2", "2.1.1", "2.1", "2.1.0", "2.0.2", "2.0.1", "2", "2.0", "2.0.0", "1.7.6", "1.7.5", "1.7.4", "1.7.3", "1.7.2", "1.7.1", "1.7", "1.7.0", "1.6.2", "1.6.1", "1.6", "1.6.0", "1.5.2", "1.5.1", "1.5", "1.5.0", "1.4.5", "1.4.4", "1.4.3", "1.4.2", "1.4", "1.3.9", "1.3.8", "1.3.7", "1.3", "1" ]
+    },
+    "install" : {
+      "name" : "install",
+      "label" : "Install ElasticSearch",
+      "value" : "false"
+    }
+  }, {
+    "name" : "solr",
+    "label" : "Solr",
+    "description" : "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene.",
+    "version" : {
+      "name" : "version",
+      "label" : "Version",
+      "releases" : [ "6.3", "6.3.0", "6.2.1", "6.2", "6.2.0", "6.1", "6.1.0", "6.0.1", "6.0", "6", "6.0.0", "5.5.3", "5.5.2", "5.5.1", "5.5", "5.5.0", "5.4.1", "5.4", "5.4.0", "5.3.2", "5.3.1", "5.3", "5" ]
+    },
+    "install" : {
+      "name" : "install",
+      "label" : "Install Solr",
+      "value" : "false"
+    }
+  } ]
+}

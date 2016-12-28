@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+
+$theme-color : #4CAF50;
+$white: #FFF;
+
+body {
+	background-color: #f1f1f1 !important;
+	/*background: url(../images/img-noise-50x50.png);*/
+	font-weight: 200;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: 700;
+	@extend .logo-font;
+}
+
+a.link {
+	color: #4CAF50 !important;
+}
+
+a {
+	color: #000;
+	transition: color 0.3s ease;
+	&:hover {
+		color: $theme-color;
+		text-decoration: none;
+	}
+}
+
+p {
+	padding: 10px;
+}
+
+i {
+	font-size:30px !important;
+}
+
+code {
+	background-color: #FFF8DC !important;
+}
+
+.logo-font {
+	font-family: 'Raleway', cursive;
+}
+
+.theme {
+	color: $theme-color !important;
+}
+
+.page-title {
+	padding: 20px;
+	border-bottom: 1px solid #DDD;
+	box-shadow: 0 1px 0px $white;
+}
+
+.home-page .description {
+	margin-top: 20px;
+}
+
+#content{
+	text-align: center;
+	margin-top:100px;
+	padding: 0px 50px 50px;
+	width: 100%;
+}
+
+.search-bar{
+	margin: 20px;
+	text-align: center;
+}
+
+.search-bar input{
+	width: 75%;
+}
+
+.video-item img{
+	max-width: 64px;
+}
+
+.list-group-item{
+	cursor: pointer;
+}
+
+.list-group-item:hover{
+	background-color: #f1f1f1;
+}
+
+.details{
+	margin-top: 20px;
+}
+
+.details .title{
+	font-size:30px;
+}
+
+.setup-code{
+	text-align: left;
+	padding: 20px;
+	margin-left:auto;
+}
+
+.setup-code code{
+	display: block;
+}
+
+.setup-code .indent{
+	margin-left: 30px;
+}
+
+.setup-code .indentTwo{
+	margin-left: 60px;
+}
+
+.setup-code .indentThree{
+	margin-left: 90px;
+}
+
+.setup-code .comment{
+	color: #aaa;
+}
+
+
+.home-page {
+	.settings {
+		//width: 60%;
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+		background: $white;
+		text-align: left;
+
+		h4 {
+			&:not(:first-child) {
+				margin-top: 2em;
+			}
+		}
+
+		.title-info {
+			color: #bbb;
+			font-size: .9em;
+		}
+	}
+
+	.settings-menu {
+		margin-top: 2em;
+		//position: fixed;
+		ul {
+			li {
+				list-style: none;
+				margin-top: 1em;
+				text-align: left;
+			}
+		}
+	}
+}
+
+.btn-primary {
+	transition: background 0.3s ease;
+	background-color: $theme-color;
+	border: none;
+
+	&:hover {
+		background-color: #3D953F;
+	}
+}
+
+// Footer
+footer {
+	background: $theme-color;
+	padding: 1em;
+	font-size: .9em;
+	span {
+			color: $white;
+	}
+}

@@ -1,0 +1,66 @@
+.header {
+	position:fixed;
+	top:0px;
+	margin:auto;
+	z-index:100000;
+	width:100%;
+
+	.logo-font {
+		font-family: 'Raleway', cursive;
+	}
+
+	.nav-bar {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+			background: rgba(51, 51, 51, .9);
+
+			.active {
+			    background-color: #444;
+			    border-bottom: 3px solid #4CAF50;
+			}
+
+			li {
+				float: left;
+
+				a {
+				    display: block;
+				    color: #aaa;
+				    text-align: center;
+				    text-decoration: none;
+				    padding: 10px;
+				    line-height: 35px;
+
+						&:hover:not(.active) {
+							color: #ccc;
+						}
+				}
+			}
+
+			li.logo {
+				margin:0px 20px;
+				padding-bottom:3px;
+
+				a {
+					font-family: 'Raleway', cursive;
+					font-size: 25px;
+				}
+			}
+
+			li.author {
+			    position: absolute;
+			    top: 3px;
+			    right: 10px;
+
+					a {
+					    color: #666;
+
+							&:hover {
+								color: #777;
+							}
+					}
+			}
+	}
+
+}
